@@ -14,6 +14,8 @@
     },
     "paths": {
         "/authorisation/v4/token": {
+            "summary": "This endpoint allows a participant to present a Verifable Presentation to get an access token. The access token recevied is complaint with iSHARE framework and can be used in with other iSHARE participants.",
+            "description": "",
             "post": {
                 "requestBody": {
                     "description": "The verifialble presentation including the verifiable credentials",
@@ -44,7 +46,7 @@
                         "description": "When the validation fails 401 is returned"
                     }
                 },
-                "description": "This endpoint allows a participant to present a Verifable Presentation to get an access token. The access token recevied is complaint with iSHARE framework and can be used in with other iSHARE participants."
+                "description": ""
             }
         }
     },
