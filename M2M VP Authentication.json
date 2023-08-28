@@ -309,8 +309,8 @@
                         "example": "vp_token"
                     },
                     "vp_token": {
-                        "description": "Signed Verifiable Presentation. See also the VP Token schema definition.",
-                        "type": "string"
+                        "$ref": "#/components/schemas/vp_token",
+                        "description": "Signed Verifiable Presentation. See also the VP Token schema definition."
                     },
                     "presentation_submission": {
                         "description": "Descriptor for the vp_token, linked by presentation_definition. See also the Presentation Definition schema.",
